@@ -5,10 +5,10 @@ A library interposer that hooks SDL to provide additional features on Linux
 
 This library interposer may be used in the following fashion:
 
-$ export SDL_FS_TOGGLE=1
-$ export SDL_FS_TOGGLE_NO_UNGRAB
-$ export SDL_HDB_COLORKEY_FIX=1
-$ LD_PRELOAD=/absolute/path/to/libsdl_extras.so <program-name>
+    $ export SDL_FS_TOGGLE=1
+    $ export SDL_FS_TOGGLE_NO_UNGRAB
+    $ export SDL_HDB_COLORKEY_FIX=1
+    $ LD_PRELOAD=/absolute/path/to/libsdl_extras.so <program-name>
 
 SDL_FS_TOGGLE: defaults to off.  Set to 1 to enable. Allows toggling
 fullscreen with alt-enter.  Good for programs like Neverwinter Nights
